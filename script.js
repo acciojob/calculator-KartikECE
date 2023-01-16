@@ -18,6 +18,16 @@ function solve(e){
     input.value = expression;
   }
 }
+  else if(e == "C"){
+    expression = "";
+    input.value ="";
+  }
+  else{
+    expression += e;
+    // console.log(expression);
+    input.value = expression;
+  }
+}
     else if(e.target.innerHTML == 'C'){
       string = ""
       document.querySelector('input').value = string;
